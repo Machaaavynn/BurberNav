@@ -3,76 +3,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#909090"
-    tools:context=".fragments.fragment_home"
+        android:background="#9CAFAA"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/geprek"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/geprek" />
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <ImageView
             android:id="@+id/kebab"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/kebab" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+            android:src="@drawable/kebab"/>
 
         <ImageView
             android:id="@+id/gandul"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/gandul" />
-
-        <ImageView
-            android:id="@+id/batagor"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/batagor" />
+            android:src="@drawable/gandul"
+            android:layout_marginStart="10dp"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/geprek"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/geprek"/>
+
+        <ImageView
+            android:id="@+id/batagor"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/batagor"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center">
 
         <ImageView
             android:id="@+id/miayam"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/miayam" />
+            android:src="@drawable/miayam"/>
 
         <ImageView
             android:id="@+id/nasgor"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/nasgor" />
+            android:src="@drawable/nasgor"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/esbuah"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ess_buah"/>
+
+        <ImageView
+            android:id="@+id/bakso"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bakso"
+            android:layout_marginStart="10dp"/>
 
     </LinearLayout>
 

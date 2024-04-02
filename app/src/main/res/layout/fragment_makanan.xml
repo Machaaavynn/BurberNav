@@ -4,67 +4,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#909090"
-    tools:context=".fragments.fragment_home"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <ImageView
-            android:id="@+id/tisane"
+            android:id="@+id/sate_kerbau"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/tisane" />
+            android:src="@drawable/tisane"/>
 
         <ImageView
-            android:id="@+id/dawet"
+            android:id="@+id/opor_ayam"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/dawet" />
+            android:src="@drawable/wedang_pejuh"
+            android:layout_marginStart="10dp"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <ImageView
-            android:id="@+id/wedang_blung"
+            android:id="@+id/nasi_pindang"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/wedang_blung" />
+            android:src="@drawable/wedang_coro"/>
 
         <ImageView
-            android:id="@+id/wedang_coro"
+            android:id="@+id/lentogkudus"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/wedang_coro" />
+            android:src="@drawable/wedang_blung"
+            android:layout_marginStart="10dp"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <ImageView
-            android:id="@+id/wedang_pejuh"
+            android:id="@+id/lepet"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/wedang_pejuh" />
+            android:src="@drawable/dawet"/>
 
     </LinearLayout>
 

@@ -4,75 +4,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#909090"
-    tools:context=".fragments.fragment_home"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <ImageView
             android:id="@+id/sate_kerbau"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/sate_kerbau" />
+            android:src="@drawable/sate_kerbau"/>
 
         <ImageView
             android:id="@+id/opor_ayam"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/oporayam_kudus" />
+            android:src="@drawable/oporayam_kudus"
+            android:layout_marginStart="10dp"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <ImageView
             android:id="@+id/nasi_pindang"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/nasi_pindang" />
+            android:src="@drawable/nasi_pindang"/>
 
         <ImageView
             android:id="@+id/lentogkudus"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/lentog_kudus" />
+            android:src="@drawable/lentog_kudus"
+            android:layout_marginStart="10dp"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <ImageView
             android:id="@+id/lepet"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/lepet" />
+            android:src="@drawable/lepet"/>
 
         <ImageView
             android:id="@+id/sooto"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_margin="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/sotoo" />
+            android:src="@drawable/sotoo"
+            android:layout_marginStart="10dp"/>
 
     </LinearLayout>
 
