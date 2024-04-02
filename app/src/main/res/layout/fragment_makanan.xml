@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#909090"
+    tools:context=".fragments.fragment_home"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tisane"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tisane" />
+
+        <ImageView
+            android:id="@+id/dawet"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dawet" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/wedang_blung"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/wedang_blung" />
+
+        <ImageView
+            android:id="@+id/wedang_coro"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/wedang_coro" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/wedang_pejuh"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/wedang_pejuh" />
+
+    </LinearLayout>
+
+</LinearLayout>
